@@ -13,14 +13,16 @@
   - [Getting Started](#getting-started)
     - [Requirements](#requirements)
     - [Build](#build)
-    - [Environment Variables](#environment-variables)
     - [Deploy](#deploy)
+  - [Changelog](#changelog)
   - [Documentations](#documentations)
   - [Licence](#licence)
 
 ## Description
 
 ProgOwer Projects Technical Website.
+
+This Website is built with [Hugo Framework](https://gohugo.io/) and [PaperMod Theme](https://themes.gohugo.io/themes/hugo-papermod/).
 
 ## Access
 
@@ -38,14 +40,23 @@ If you use the **classic** way, just clone this repository, build it and deploy 
 If you use the **Docker** way, here a sample of Docker Compose file : **docker-compose.yml**
 
 ```yaml
-TODO
+---
+version: '3.6'
+
+services:
+  progower_projects:
+    container_name: 'progower_projects'
+    image: progower-projects:1.0.0
+    ports:
+    - 8080:80
+    restart: unless-stopped
 ```
 
 ### Requirements
 
 If you use the **classic** way :
 
-- TODO
+- [Hugo](https://gohugo.io/getting-started/installing)
 
 If you use the **Docker** way :
 
@@ -57,7 +68,7 @@ If you use the **Docker** way :
 If you use the **classic** way :
 
 ```bash
-TODO
+hugo -D
 ```
 
 If you use the **Docker** way :
@@ -70,19 +81,12 @@ docker-compose -f docker-compose.dev.yml build
 docker-compose build
 ```
 
-### Environment Variables
-
-| Parameter | Value Example | Description |
-|-|-|-|
-| PARAM | TODO | TODO Description |
-|  |  |  |
-
 ### Deploy
 
 If you use the **classic** way :
 
 ```bash
-TODO
+hugo server -D
 ```
 
 If you use the **Docker** way :
@@ -94,6 +98,10 @@ docker-compose -f docker-compose.dev.yml up
 # Production
 docker-compose up
 ```
+
+## Changelog
+
+See [CHANGELOG](./CHANGELOG.md) for more information.
 
 ## Documentations
 

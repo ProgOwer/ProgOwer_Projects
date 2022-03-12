@@ -11,5 +11,18 @@
 ## Commands
 
 ```bash
-TODO
+# Use of Docker
+docker-compose -f docker-compose.dev.yml run --rm progower_projects_dev bash
+
+# Create the new site
+hugo new site progower
+
+cd src
+
+# Add PaperMod Theme
+git clone https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod --depth=1 --branch v6.0
+rm -R themes/PaperMod/.git
+
+# Create a new post
+hugo new --kind post testy.md
 ```

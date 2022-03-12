@@ -1,0 +1,14 @@
+FROM klakegg/hugo:0.93.2-debian
+WORKDIR /src
+
+# Copy all sources files
+COPY ./src ./
+
+# Expose Server Port
+EXPOSE 1313
+
+# Reset Entrypoint
+ENTRYPOINT []
+
+# Development launch command
+CMD ["hugo", "server", "-D"]

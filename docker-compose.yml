@@ -1,0 +1,19 @@
+---
+version: '3.6'
+
+services:
+  progower_projects:
+    container_name: '${PROGOWER_PROJECTS_NAME}'
+    image: ${PROGOWER_PROJECTS_IMG}:${PROGOWER_PROJECTS_VERSION_PROD}
+    build:
+      context: .
+      dockerfile: Dockerfile
+    healthcheck:
+      test: ["CMD", "wget", "-O", "/dev/null", "http://localhost:80"]
+      interval: 1m
+      timeout: 30s
+      retries: 3
+      start_period: 30s
+    ports:
+    - 8008:80
+    restart: unless-stopped
