@@ -2,6 +2,7 @@
 en:
   languageName: ":us:"
   languageAltTitle: English
+  contentDir: "content/en"
   weight: 1
   title: "ProgOwer Projects"
   homeInfoParams:
@@ -26,6 +27,7 @@ en:
 fr:
   languageName: ":fr:"
   languageAltTitle: Français
+  contentDir: "content/fr"
   weight: 2
   title: "Projets ProgOwer"
   homeInfoParams:
