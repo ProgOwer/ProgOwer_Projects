@@ -12,16 +12,16 @@ en:
   menu:
     main:
     - name: Archives
-      url: /archives/
+      url: archives/
       weight: 1
     - name: Search
-      url: /search/
+      url: search/
       weight: 2
     - name: Categories
-      url: /categories/
+      url: categories/
       weight: 3
     - name: Tags
-      url: /tags/
+      url: tags/
       weight: 4
 fr:
   languageName: ":fr:"
@@ -36,14 +36,14 @@ fr:
   menu:
     main:
     - name: Archives
-      url: /archives/
+      url: archives/
       weight: 1
     - name: Recherche
-      url: /search/
+      url: search/
       weight: 2
     - name: Catégories
-      url: /categories/
+      url: categories/
       weight: 3
     - name: Tags
-      url: /tags/
+      url: tags/
       weight: 4
