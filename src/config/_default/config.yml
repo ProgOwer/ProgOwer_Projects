@@ -1,5 +1,5 @@
 # Base Config
-baseURL: "https://progower.gitlab.io/progower_projects"
+baseURL: "https://progower.gitlab.io/progower_projects/"
 theme: "PaperMod"
 
 # enableRobgoogleAnalytics: UA-123-45
