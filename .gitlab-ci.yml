@@ -2,7 +2,9 @@ image: registry.gitlab.com/pages/hugo/hugo_extended:latest
 
 pages:
   script:
+  - cd src
   - hugo
+  - mv public ../
   artifacts:
     paths:
     - public
