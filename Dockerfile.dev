@@ -11,4 +11,4 @@ EXPOSE 1313
 ENTRYPOINT []
 
 # Development launch command
-CMD ["hugo", "server", "-D"]
+CMD ["hugo", "server", "-D", "--environment", "development"]

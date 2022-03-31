@@ -1,0 +1,49 @@
+# Languages Config
+en:
+  languageName: ":us:"
+  languageAltTitle: English
+  weight: 1
+  title: "ProgOwer Projects"
+  homeInfoParams:
+    Title: Hello World !
+    Content: This is my Projects Blog WebSite, feel free to use everything you find here if it can help you.
+  params:
+    keywords: [progower, blog, technical, cloud]
+  menu:
+    main:
+    - name: Archives
+      url: /archives/
+      weight: 1
+    - name: Search
+      url: /search/
+      weight: 2
+    - name: Categories
+      url: /categories/
+      weight: 3
+    - name: Tags
+      url: /tags/
+      weight: 4
+fr:
+  languageName: ":fr:"
+  languageAltTitle: Français
+  weight: 2
+  title: "Projets ProgOwer"
+  homeInfoParams:
+    Title: Hello World !
+    Content: Ceci est mon blog technique personnel qui contient mes projets, soyez libre d'utiliser tout ce qui pourrait vous être utile ici.
+  params:
+    keywords: [progower, blog, technique, cloud]
+  menu:
+    main:
+    - name: Archives
+      url: /archives/
+      weight: 1
+    - name: Recherche
+      url: /search/
+      weight: 2
+    - name: Catégories
+      url: /categories/
+      weight: 3
+    - name: Tags
+      url: /tags/
+      weight: 4

@@ -1,0 +1,41 @@
+# Base Config
+baseURL: "https://progower.gitlab.io/progower_projects"
+theme: "PaperMod"
+
+# enableRobgoogleAnalytics: UA-123-45
+otsTXT: false
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+timeZone: Europe/Paris
+paginate: 5
+watch: true
+
+outputs:
+  home:
+  - HTML
+  - RSS
+  - JSON
+
+# Multi Languages Support
+languageCode: "en-us"
+defaultContentLanguage: en
+
+# Plugins
+enableEmoji: true
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+markup:
+  highlight:
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    noClasses: false
+    style: monokai
+
+taxonomies:
+  category: categories
+  tag: tags

@@ -1,6 +1,7 @@
 # ProgOwer Projects
 
 [![License : MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![pipeline status](https://gitlab.com/ProgOwer/progower_projects/badges/master/pipeline.svg)](https://gitlab.com/ProgOwer/progower_projects/-/commits/master)
 
 ![Icon](./icon.png)
 
@@ -14,6 +15,7 @@
     - [Requirements](#requirements)
     - [Build](#build)
     - [Deploy](#deploy)
+    - [Create New Posts](#create-new-posts)
   - [Changelog](#changelog)
   - [Documentations](#documentations)
   - [Licence](#licence)
@@ -27,51 +29,24 @@ This Website is built with [Hugo Framework](https://gohugo.io/) and [PaperMod Th
 ## Access
 
 - **Development (Local)** :
-  - [ProgOwer Projects Development](http://localhost)
+  - [ProgOwer Projects Development](http://localhost:1313)
 - **Production (Local)** :
-  - [ProgOwer Projects Production](http://localhost)
+  - [ProgOwer Projects Production](http://localhost:8008)
 - **Production** :
-  - [ProgOwer Projects Production](https://progower_projects)
+  - [ProgOwer Projects Production](https://progower.gitlab.io/progower_projects)
 
 ## Getting Started
 
-If you use the **classic** way, just clone this repository, build it and deploy it.
-
-If you use the **Docker** way, here a sample of Docker Compose file : **docker-compose.yml**
-
-```yaml
----
-version: '3.6'
-
-services:
-  progower_projects:
-    container_name: 'progower_projects'
-    image: progower-projects:1.0.0
-    ports:
-    - 8080:80
-    restart: unless-stopped
-```
+1) You need to install or setup the [Requirements](#requirements)
+2) [Build](#build) with Docker
+3) Finally [Deploy](#deploy) with Docker
 
 ### Requirements
-
-If you use the **classic** way :
-
-- [Hugo](https://gohugo.io/getting-started/installing)
-
-If you use the **Docker** way :
 
 - Docker
 - Docker Compose
 
 ### Build
-
-If you use the **classic** way :
-
-```bash
-hugo -D
-```
-
-If you use the **Docker** way :
 
 ```bash
 # Development
@@ -83,20 +58,19 @@ docker-compose build
 
 ### Deploy
 
-If you use the **classic** way :
-
-```bash
-hugo server -D
-```
-
-If you use the **Docker** way :
-
 ```bash
 # Development
 docker-compose -f docker-compose.dev.yml up
 
 # Production
 docker-compose up
+```
+
+### Create New Posts
+
+```bash
+docker-compose -f docker-compose.dev.yml run --rm progower_projects_dev hugo new posts/POSTS.en.md
+docker-compose -f docker-compose.dev.yml run --rm progower_projects_dev cp posts/POSTS.en.md posts/POSTS.fr.md
 ```
 
 ## Changelog
@@ -107,6 +81,7 @@ See [CHANGELOG](./CHANGELOG.md) for more information.
 
 - [Ideas](./docs/ideas.md)
 - [Commands](./docs/commands.md)
+- [Posts](./docs/posts.md)
 
 ## Licence
 

@@ -1,0 +1,41 @@
+# Global Parameters
+# Main Paramters
+defaultTheme: auto
+disableThemeToggle: false
+env: production
+DateFormat: "Monday : 02/01/2006 : 15:04"
+displayFullLangName: true
+
+socialIcons:
+- name: "gitlab"
+  url: "https://gitlab.com/ProgOwer"
+- name: "github"
+  url: "https://github.com/ProgOwer"
+- name: "linkedin"
+  url: "TODO"
+
+assets:
+  favicon: "/img/favicon.ico"
+  favicon16x16:  "/img/favicon-16x16.png"
+  favicon32x32:  "/img/favicon-32x32.png"
+  apple_touch_icon:  "/img/apple-touch-icon.png"
+  safari_pinned_tab:  "/img/android-chrome-512x512.png"
+
+# Search Paramters
+fuseOpts:
+  isCaseSensitive: false
+  shouldSort: true
+  location: 0
+  distance: 1000
+  threshold: 0.4
+  minMatchCharLength: 0
+  keys: ["title", "permalink", "summary", "content"]
+
+# Posts Parameters
+ShowShareButtons: true
+ShowReadingTime: true
+ShowToc: true
+TocOpen: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowCodeCopyButtons: true

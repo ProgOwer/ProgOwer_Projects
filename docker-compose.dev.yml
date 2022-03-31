@@ -16,6 +16,8 @@ services:
       start_period: 10s
     volumes:
     - ./src:/src:rw
+    - /etc/timezone:/etc/timezone:ro
+    - /etc/localtime:/etc/localtime:ro
     ports:
     - 1313:1313
     restart: unless-stopped
