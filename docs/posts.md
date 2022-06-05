@@ -7,14 +7,33 @@
 - [ProgOwer Projects : Posts](#progower-projects--posts)
   - [Table Of Contents](#table-of-contents)
   - [Posts Ideas](#posts-ideas)
+  - [Posts Categories](#posts-categories)
   - [Posts Tags](#posts-tags)
 
 ## Posts Ideas
 
-- **Hello World** : Presentation Posts
+- [X] **Hello World** : Presentation Posts
+- [ ] **ProgOwer Projects** : ProgOwer Projects Posts
+- [ ] **PartySeach** : PartySearch Web Application Posts
+- [X] **DynTools** : DynTools Documentation Posts
+- [ ] **Server Build** : Server Build Posts
+- [ ] **OpenMediaVault System** : OpenMediaVault System Posts
+- [ ] **TrueNAS System** : TrueNAS System Posts
+- [ ] **MediaNaming** : MediaNaming Posts
+  - Add [disclaimer](https://www.service-public.fr/particuliers/vosdroits/F32108)
+    - L'état français autorise la "copie privé" d'un DVD pour le visionner autre part ou sécurisé son contenu
+
+## Posts Categories
+
+- **ProgOwer** : ProgOwer Posts
+- **Web** : Web Application Posts
+- **Infrastructure** : Infrastructure Posts
 
 ## Posts Tags
 
 - **news** : News Posts
 - **project** : Projects Posts
 - **progower** : ProgOwer About Posts
+- **web** : Web Application Posts
+- **infrastructure** : Infrastructure Posts
+- **documentation** : Documentation Posts

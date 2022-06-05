@@ -8,6 +8,7 @@
   - [Table Of Contents](#table-of-contents)
   - [Description](#description)
   - [Lasted](#lasted)
+  - [[1.0.0] - 05-06-2022](#100---05-06-2022)
   - [[0.1.0] - 31-03-2022](#010---31-03-2022)
 
 ## Description
@@ -33,10 +34,16 @@ Types of changes :
 
 ## Lasted
 
-- **Application Version** : [0.1.0] - 31-03-2022
+- **Application Version** : [1.0.0] - 01-04-2022
 - **Hugo Framework Version** : [0.93.2]
 - **PaperMod Hugo Theme Version** : [v6.0]
 - **E Sphere Framework Version** : [1.10.0]
+
+## [1.0.0] - 05-06-2022
+
+- **Added** :
+  - New Posts
+  - Post Template
 
 ## [0.1.0] - 31-03-2022
 
