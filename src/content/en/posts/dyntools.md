@@ -11,6 +11,8 @@ tags:
 - "documentation"
 author:
 - "ProgOwer"
+cover:
+    image: "/img/projects/dyntools.png"
 description: "Project which contains a set of documentation and tools for other projects."
 showToc: true
 TocOpen: true

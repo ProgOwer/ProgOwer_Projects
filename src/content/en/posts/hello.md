@@ -8,6 +8,8 @@ tags:
 - "progower"
 author:
 - "ProgOwer"
+cover:
+    image: "/img/android-chrome-512x512.png"
 description: "A little presentation of my passion for tech, programming and infrastructure."
 showToc: true
 TocOpen: true

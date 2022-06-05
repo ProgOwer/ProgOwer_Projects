@@ -69,8 +69,8 @@ docker-compose up
 ### Create New Posts
 
 ```bash
-docker-compose -f docker-compose.dev.yml run --rm progower_projects_dev hugo new posts/POSTS.en.md
-docker-compose -f docker-compose.dev.yml run --rm progower_projects_dev cp /src/content/en/posts/POSTS.en.md /src/content/fr/posts/POSTS.fr.md
+docker-compose -f docker-compose.dev.yml run --rm progower_projects_dev hugo new posts/POSTS.md
+docker-compose -f docker-compose.dev.yml run --rm progower_projects_dev cp /src/content/en/posts/POSTS.md /src/content/fr/posts/POSTS.md
 ```
 
 ## Changelog

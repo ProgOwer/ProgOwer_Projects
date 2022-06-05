@@ -8,6 +8,8 @@ tags:
 - "TODO"
 author:
 - "ProgOwer"
+cover:
+    image: "/img/android-chrome-512x512.png"
 description: "TODO."
 showToc: true
 TocOpen: true
