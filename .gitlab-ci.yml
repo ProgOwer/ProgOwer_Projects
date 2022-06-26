@@ -3,7 +3,7 @@ image: registry.gitlab.com/pages/hugo/hugo_extended:latest
 pages:
   script:
   - cd src
-  - hugo
+  - hugo --minify --environment gitlab
   - mv public ../
   artifacts:
     paths:
