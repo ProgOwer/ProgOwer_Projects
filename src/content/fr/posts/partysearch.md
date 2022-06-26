@@ -12,7 +12,7 @@ tags:
 author:
 - "ProgOwer"
 cover:
-    image: "/img/projects/partysearch.png"
+    image: "img/projects/partysearch.png"
 description: "Site web statique pour référencer des jeux multijoueurs et coopératifs."
 showToc: true
 TocOpen: true

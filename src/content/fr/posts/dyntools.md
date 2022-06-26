@@ -12,7 +12,7 @@ tags:
 author:
 - "ProgOwer"
 cover:
-    image: "/img/projects/dyntools.png"
+    image: "img/projects/dyntools.png"
 description: "Projet qui regroupe un ensemble de documentation et d'outils pour d'autres projets."
 showToc: true
 TocOpen: true

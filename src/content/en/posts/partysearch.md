@@ -12,7 +12,7 @@ tags:
 author:
 - "ProgOwer"
 cover:
-    image: "/img/projects/partysearch.png"
+    image: "img/projects/partysearch.png"
 description: "Static Website with coop and multi game referential."
 showToc: true
 TocOpen: true

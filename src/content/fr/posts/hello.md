@@ -9,7 +9,7 @@ tags:
 author:
 - "ProgOwer"
 cover:
-    image: "/img/android-chrome-512x512.png"
+    image: "img/android-chrome-512x512.png"
 description: "Une petite présentation de ma passion pour les technologies, la programmation et l'infrastructure."
 showToc: true
 TocOpen: true

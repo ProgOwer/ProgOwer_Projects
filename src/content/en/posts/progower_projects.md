@@ -12,7 +12,7 @@ tags:
 author:
 - "ProgOwer"
 cover:
-    image: "/img/android-chrome-512x512.png"
+    image: "img/android-chrome-512x512.png"
 description: "This Technical Website."
 showToc: true
 TocOpen: true
