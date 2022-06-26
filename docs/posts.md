@@ -14,9 +14,9 @@
 
 - [X] **Hello World** : Presentation Posts
 - [X] **ProgOwer Projects** : ProgOwer Projects Posts
-- [ ] **PartySeach** : PartySearch Web Application Posts
+- [X] **PartySeach** : PartySearch Web Application Posts
 - [X] **DynTools** : DynTools Documentation Posts
-- [ ] **Server Build** : Server Build Posts
+- [In Progress] **Server Build** : Server Build Posts
 - [In Progress] **OpenMediaVault System** : OpenMediaVault System Posts
 - [In Progress] **TrueNAS System** : TrueNAS System Posts
 - [In Progress] **MediaNaming** : MediaNaming Posts

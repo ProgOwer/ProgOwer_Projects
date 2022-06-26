@@ -38,7 +38,7 @@ ShowPostNavLinks: true
 
 [![GitLab](https://img.shields.io/badge/GitLab-330F63?style=for-the-badge&logo=gitlab&logoColor=white)](https://gitlab.com/ProgOwer/progower_projects)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ProgOwer/ProgOwer_Projects)
-[![ProgOwer Projects](https://img.shields.io/website-up-down-green-red/https/progower.gitlab.io/progower.svg)](https://progower.gitlab.io/progower_projects/fr/)
+[![ProgOwer Projects](https://img.shields.io/website-up-down-green-red/https/progower.gitlab.io/progower_projects.svg)](https://progower.gitlab.io/progower_projects/fr/)
 
 > :warning: **AVERTISSEMENT** :warning: : Vous pouvez utiliser tout ce que contient ce blog **MAIS** je ne pourrais pas être tenu responsable de l'utilisation que vous en ferez, vous restez maître de vos **décisions** :wink: ! (Ne vous en faites pas, on ne fait rien d'illégal ici)
 
